@@ -14,7 +14,7 @@ int main()
 	std::cout << "Enter NIT: ";
 	cin >> NIT;
 	double x1_1 = 3;
-	double x2_1 = 2;
+	double x2_1 = -2;
 
 	double M1 = 0.01, M2 = 0.05, M3 = 0.1;
 

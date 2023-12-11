@@ -128,7 +128,7 @@ vector <double> solve1(double const x1, double const x2, double& e, double& e2, 
 	vector <double> dx;
 	int k = 1;
 	double b1=1, b2=1;
-	while (b1 >= e && b2 >= e) 
+	while (b1 > e || b2 > 2) 
 	{
 			prev = curr;
 			vector<double> Fk;
